@@ -10,6 +10,8 @@ class Dog
  
   def breed
     @breed = breed
+  else 
+    @breed = Mutt
   end
  
 end
