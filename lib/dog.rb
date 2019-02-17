@@ -11,7 +11,8 @@ class Dog
   def breed
     @breed = breed
   else 
-    @breed = Mutt
+    @breed = x
+    puts Mutt
   end
  
 end
